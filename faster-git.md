@@ -1,4 +1,4 @@
-# Datawhale-fastergit-notes    
+# Datawhale-faster-git-notes    
 原教程传送门：https://github.com/datawhalechina/faster-git/tree/main    
 
 第一章 Git简介（准备工作）  
