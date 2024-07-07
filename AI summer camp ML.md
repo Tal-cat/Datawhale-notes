@@ -24,7 +24,12 @@ Task 3 进阶baseline讲解
 5. TF-IDF（Term Frequency-Inverse Document Frequency）：是一种用于信息检索与文本挖掘的常用加权技术。它是一种【统计方法】，用以评估一个词语对于一个文件集或一个语料库中的其中一份文件的重要程度。主要思想是：如果某个词语在一篇文章中出现的频率高（Term Frequency，TF），并且在其他文章中很少出现（Inverse Document Frequency，IDF），则认为这个词语具有很好的类别区分能力，对这篇文章的内容有很好的指示作用。注意有自身bug。
 6. 交叉验证：（1）K-折交叉验证（K-Fold Cross-Validation）：比较常规，一般5和10。（2）留一交叉验证（Leave-One-Out Cross-Validation, LOOCV）：用于小样本机器学习。（3）分层交叉验证（Stratified Cross-Validation）：确保每个折中类别的比例与整个数据集保持一致。（4）时间序列交叉验证（Time Series Cross-Validation）：确保测试集总是来自时间序列的末端。
 7. CatBoost：自动处理，宝藏package。
-8. 整体上机器学习思路清晰，甚至感觉可以在此基础上直接搞。     
+8. 整体上机器学习思路清晰，甚至感觉可以在此基础上直接搞。
+
+Task 4 持续尝试，上分！     
+<img width="737" alt="截屏2024-07-07 22 21 24" src="https://github.com/Tal-cat/Datawhale-notes/assets/60603537/54e807d3-cd59-44b2-8a1f-29d37de82f17">      
+尝试将task 3和4进行整合，code确实整合了，但是跑起来遇到lightgbm的版本问题，新版确缺失参数，旧版安装失败。建议优化代码强调版本？以及百度平台会有permission问题，这次尝试失败。
+
    
 
 
